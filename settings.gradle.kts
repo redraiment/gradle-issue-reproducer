@@ -1,1 +1,5 @@
-rootProject.name = "reproducer-project"
+pluginManagement {
+    includeBuild("build-logic")
+}
+
+rootProject.name = "gradle-issue-reproducer"
